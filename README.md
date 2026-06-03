@@ -158,7 +158,7 @@ void loop() {
 
 ## Explicação do Funcionamento
 
-1. Ao iniciar, o LCD exibe a tela de boas-vindas **"ORBITAL FISHING / Boia de monit..."** por 3 segundos
+1. Ao iniciar, o LCD exibe a tela de boas-vindas **"ORBITAL FISHING / OceanBoia"** por 3 segundos
 2. A cada **4 segundos** o sistema faz a leitura de todos os sensores simultaneamente
 3. O LCD alterna entre 4 telas — **Temperatura**, **pH**, **Salinidade** e **Clorofila-a** — exibindo o valor atual de cada parâmetro
 4. A cada leitura, um **pacote JSON** é montado com os 4 valores e enviado pelo Serial, simulando a transmissão ao satélite
